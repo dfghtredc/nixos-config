@@ -1,2 +1,7 @@
+{ ... }:
+
 {
+  networking.firewall = {
+    enable = true;
+  };
 }
