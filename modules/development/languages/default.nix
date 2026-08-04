@@ -18,5 +18,8 @@
     ./flutter.nix
     ./r.nix
     ./elixir.nix
+    
+    #shell
+    ./bash.nix
   ];
 }
