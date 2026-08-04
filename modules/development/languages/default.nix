@@ -14,5 +14,6 @@
     ./csharp.nix
     ./ruby.nix
     ./php.nix
+    ./zig.nix
   ];
 }
