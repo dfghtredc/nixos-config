@@ -17,5 +17,6 @@
     ./zig.nix
     ./flutter.nix
     ./r.nix
+    ./elixir.nix
   ];
 }
