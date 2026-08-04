@@ -15,5 +15,7 @@
     ./ruby.nix
     ./php.nix
     ./zig.nix
+    ./flutter.nix
+    ./r.nix
   ];
 }
