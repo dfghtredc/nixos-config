@@ -8,7 +8,8 @@
 
   imports = [
     ./git/default.nix
-    ./kitty/default.nix	
+    ./kitty/default.nix
+    ./zsh/default.nix
   ];
   
   programs.home-manager.enable = true;
