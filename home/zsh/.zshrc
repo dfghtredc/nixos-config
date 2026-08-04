@@ -11,5 +11,5 @@ setopt sharehistory
 setopt hist_ignore_dups
 
 for config in ~/.config/zsh/*.zsh; do
-    [ -r "$config"] && source "$config"
+    [ -r "$config" ] && source "$config"
 done
