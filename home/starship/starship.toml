@@ -1,0 +1,8 @@
+add_newline = true
+
+[directory]
+truncate_to_repo = false
+
+[character] 
+sucess_symbol = "[>>>](bold green)"
+error_symbol = "[>>>](bold red)"
