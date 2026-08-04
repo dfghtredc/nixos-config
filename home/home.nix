@@ -5,6 +5,10 @@
   home.homeDirectory = "/home/aaher";
 
   home.stateVersion = "26.05";
+
+  imports = [
+    ./git/default.nix
+  ];
   
   programs.home-manager.enable = true;
 
