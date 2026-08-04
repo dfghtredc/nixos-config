@@ -5,7 +5,7 @@
     enable = true;
 
     interactiveShellInit = ''
-      eval "$(starshit init zsh)"
+      eval "$(starship init zsh)"
     '';
   };
    

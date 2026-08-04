@@ -26,6 +26,7 @@
             home-manager.useUserPackages = true;
 
             home-manager.users.aaher = import ./home/home.nix;
+            home-manager.backupFileExtension = "backup";
           }
         ];
       };
