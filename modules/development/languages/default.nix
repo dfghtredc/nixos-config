@@ -12,5 +12,7 @@
     ./rust.nix
     ./typescript.nix
     ./csharp.nix
+    ./ruby.nix
+    ./php.nix
   ];
 }
