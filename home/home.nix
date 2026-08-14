@@ -10,6 +10,7 @@
     ./git/default.nix
     ./kitty/default.nix
     ./zsh/default.nix
+    ./tmux/default.nix
   ];
   
   programs.home-manager.enable = true;
