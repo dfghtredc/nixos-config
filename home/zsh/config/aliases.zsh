@@ -1,5 +1,3 @@
 for file in ~/.config/zsh/aliases/*.zsh; do
-    if [ -f "$file" ]; then
-        source "$file"
-    fi
+    if [ -r "$file" ] && source "$file"
 done
