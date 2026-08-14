@@ -10,6 +10,6 @@ setopt appendhistory
 setopt sharehistory
 setopt hist_ignore_dups
 
-for config in ~/.config/zsh/*.zsh; do
+for config in ~/.config/zsh/aliases/*.zsh; do
     [ -r "$config" ] && source "$config"
 done
