@@ -1,5 +1,10 @@
 { pkgs, ... }:
 
+
+let 
+  appearance = builtins.readFile ./appearance.conf;
+in
+
 {
   programs.tmux = {
     enable = true;
@@ -22,6 +27,9 @@
    ];
 
    extraConfig = ''
+   
+     ${appearance}
+
      #Terminal support
      set -g default-terminal "tmux-256color"
      set -as terminal-features ",xterm-256color:RGB"

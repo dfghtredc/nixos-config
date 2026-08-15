@@ -12,12 +12,12 @@ function mkcd() {
 
 #rebuilds the nixos
 function rebuild() {
-    sudo nixos-rebuild switch --flake ~/projects/nixos-config#aaher
+    sudo nixos-rebuild switch --flake ~/projects/nixos-config ".#aaher"
 }
 
 #rebuilds nixos and checks git status
 function nrs() {
-    sudo nixos-rebuild switch --flake ~/projects/nixos-config#aaher &&
+    sudo nixos-rebuild switch --flake ~/projects/nixos-config ".#aaher" &&
     git -C ~/projects/nixos-config status
 }
 

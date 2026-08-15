@@ -11,6 +11,7 @@
     ./kitty/default.nix
     ./zsh/default.nix
     ./tmux/default.nix
+    ./neovim/default.nix
   ];
   
   programs.home-manager.enable = true;
