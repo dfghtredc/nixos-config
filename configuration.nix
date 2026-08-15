@@ -98,10 +98,12 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
- nix.settings.experimental-features = [
+  nix.settings.experimental-features = [
   "nix-command"
   "flakes"
  ];
+
+ console.font = "Lat2-Terminus16";
  
  system.stateVersion = "26.05"; # Did you read the comment?
 }
