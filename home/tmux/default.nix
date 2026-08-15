@@ -87,4 +87,9 @@ home.file.".config/tmux/scripts/hostname.sh" = {
   executable = true;
 };
 
+home.file.".config/tmux/scripts/path.sh" = {
+  source = ./scripts/path.sh;
+  executable = true;
+};
+
 }
