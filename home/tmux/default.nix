@@ -32,13 +32,6 @@ in
 
      #Terminal support
      set -g default-terminal "tmux-256color"
-     set -as terminal-features ",xterm-256color:RGB"
-     set -as terminal-features ",xterm-kitty:RGB"
-
-
-     #True Color
-     set -ga terminal-overrides ",*:Tc"
-
 
      #Keep New panes/windows in the current directory
      bind | split-window -h -c "#{pane_current_path}"
