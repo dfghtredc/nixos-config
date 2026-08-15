@@ -26,7 +26,7 @@ if [ "$total_delta" -gt 0 ]; then
         'BEGIN { printf "%.2f%%\n", ((total - idle) / total) * 100 }'
 
 else
-    printf "0.00%%\n"
+    printf "0.00%%"
 fi
 
 

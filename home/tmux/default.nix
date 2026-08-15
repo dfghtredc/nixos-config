@@ -61,4 +61,30 @@ in
      setw -g mode-keys vi    
    '';
  };
+
+ home.file.".config/tmux/scripts/cpu.sh" = {
+   source = ./scripts/cpu.sh;
+   executable = true;
+ };
+
+home.file.".config/tmux/scripts/ram.sh" = {
+  source = ./scripts/ram.sh;
+  executable = true;
+};
+
+home.file.".config/tmux/scripts/battery.sh" = { 
+  source = ./scripts/battery.sh;
+  executable = true;
+};
+
+home.file.".config/tmux/scripts/language.sh" = {
+  source = ./scripts/language.sh;
+  executable = true;
+};
+
+home.file.".config/tmux/scripts/hostname.sh" = {
+  source = ./scripts/hostname.sh;
+  executable = true;
+};
+
 }
