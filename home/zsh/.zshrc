@@ -12,5 +12,6 @@ setopt hist_ignore_dups
 
 #Zsh configuration
 source ~/.config/zsh/options.zsh
+source ~/.config/zsh/prompt.zsh
 source ~/.config/zsh/functions.zsh
 source ~/.config/zsh/aliases.zsh
