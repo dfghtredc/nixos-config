@@ -12,3 +12,4 @@ alias .....="cd ../../../.."
 alias grep="grep --color=auto"
 
 
+alias nixrepo="cd projects/nixos-config"
