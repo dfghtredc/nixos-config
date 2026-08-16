@@ -104,6 +104,24 @@
  ];
 
  console.font = "Lat2-Terminus16";
- 
+
+ console.colors = [
+   "000000"
+   "ff5555"
+   "50fa7b"
+   "f1fa8c"
+   "8be9fd"
+   "caa9fa"
+   "8be9fd"
+   "ffffff"
+   "555555"
+   "ff6e6e"
+   "69ff94"
+   "ffffa5"
+   "8be9fd"
+   "d6b8ff"
+   "8be9fd"
+   "ffffff"
+ ];
  system.stateVersion = "26.05"; # Did you read the comment?
 }
