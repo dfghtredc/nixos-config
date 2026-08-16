@@ -27,4 +27,9 @@
     source = ./config;
     recursive = true;
   };
+
+  programs.fzf = {
+    enable = true;
+    enableZshIntegration = false;
+  };
 }
