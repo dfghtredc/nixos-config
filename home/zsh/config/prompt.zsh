@@ -20,6 +20,8 @@ prompt_path() {
     if [[ "$PWD" = "$project/"* ]]; then
         local relative="${PWD#$project/}"
 
+        relative="${relative#modules/}"
+
         local first="${relative%%/*}"
 
         local rest="${relative#*/}"
