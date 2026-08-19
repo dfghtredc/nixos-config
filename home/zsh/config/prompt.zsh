@@ -41,14 +41,3 @@ prompt_path() {
     print -n "%~"
 
 PROMPT='%F{white}%n@%m:%f$(prompt_path) %F{magenta}>>>%f '
-
-
-
-
-#Test colors
-#print -P '%F{white}WHITE%f'
-#print -P '%F{242}GRAY%f'
-#print -P '%F{magenta}MAGENTA%f'
-#print -P '%F{red}RED%f'
-#print -P '%F{yellow}YELLOW%f'
-#print -P '%F{green}GREEN%f'
