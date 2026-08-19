@@ -24,13 +24,11 @@ prompt_path() {
 
         local rest="${relative#*/}"
 
-        if [[ "$relative" == "first" ]]; then
+
+        if [[ "$rest" == "$relative" ]]; then
             print -n "~/nixos-config/$first"
-
-
         else
-            local second ="${rest%%/*}"
-
+            local second="${rest%%/*}"
             print -n "~/nixos-config/$first/$second"
 
         fi
@@ -39,5 +37,6 @@ prompt_path() {
     fi
 
     print -n "%~"
+}
 
 PROMPT='%F{white}%n@%m:%f$(prompt_path) %F{magenta}>>>%f '
