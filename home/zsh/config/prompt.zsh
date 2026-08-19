@@ -40,3 +40,4 @@ prompt_path() {
 }
 
 PROMPT='%F{white}%n@%m:%f$(prompt_path) %F{magenta}>>>%f '
+
