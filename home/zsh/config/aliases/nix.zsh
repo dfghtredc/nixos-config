@@ -3,7 +3,7 @@ alias flake-update="nix flake update"
 alias flake-lock="nix flake lock"
 alias flake-show="nix flake show"
 
-alias test-build= sudo nixos-rebuild test --flake ".#aaher"
+alias test-build='sudo nixos-rebuild test --flake ".#aaher"'
 alias boot-build="sudo nixos-rebuild boot --flake ~/projects/nixos-config .#aaher"
 alias rollback="sudo nixos-rebuild switch --rollback"
 
